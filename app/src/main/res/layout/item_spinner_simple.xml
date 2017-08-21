@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="30dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="name" />
+<View
+    android:layout_width="1dp"
+    android:background="#E3E3E3"
+    android:layout_height="match_parent"></View>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:text="address"
+        android:layout_height="match_parent" />
+</LinearLayout>
